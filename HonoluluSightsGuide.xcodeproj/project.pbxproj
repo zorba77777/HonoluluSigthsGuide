@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2419A485217360C000F00834 /* NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2419A484217360C000F00834 /* NotificationCenter.m */; };
+		2419A489217385D200F00834 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2419A488217385D200F00834 /* ContentViewController.m */; };
+		2419A48C2173880E00F00834 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2419A48B2173880E00F00834 /* FirstViewController.m */; };
+		242C09F0216E7A0D00DD27DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C09EF216E7A0D00DD27DF /* AppDelegate.m */; };
+		242C09F6216E7A0D00DD27DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242C09F4216E7A0D00DD27DF /* Main.storyboard */; };
+		242C09F9216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 242C09F7216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld */; };
+		242C09FB216E7A0E00DD27DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242C09FA216E7A0E00DD27DF /* Assets.xcassets */; };
+		242C09FE216E7A0E00DD27DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242C09FC216E7A0E00DD27DF /* LaunchScreen.storyboard */; };
+		242C0A01216E7A0E00DD27DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A00216E7A0E00DD27DF /* main.m */; };
+		242C0A0D216E7BA600DD27DF /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A0C216E7BA600DD27DF /* MyAnnotation.m */; };
+		242C0A12216E7BF800DD27DF /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A0F216E7BF800DD27DF /* DataManager.m */; };
+		242C0A13216E7BF800DD27DF /* ArtObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A11216E7BF800DD27DF /* ArtObject.m */; };
+		242C0A1C216E7C7B00DD27DF /* PinInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A16216E7C7B00DD27DF /* PinInfoViewController.m */; };
+		242C0A1D216E7C7B00DD27DF /* SightsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A1A216E7C7B00DD27DF /* SightsCollectionViewController.m */; };
+		242C0A1E216E7C7B00DD27DF /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A1B216E7C7B00DD27DF /* MapViewController.m */; };
+		242C0A21216E7CA900DD27DF /* SightsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A20216E7CA900DD27DF /* SightsCollectionViewCell.m */; };
+		242C0A24216E7CEA00DD27DF /* SightsCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A23216E7CEA00DD27DF /* SightsCollectionHeaderView.m */; };
+		243728D5216E999500C9D1FD /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 243728D4216E999500C9D1FD /* CoreDataStack.m */; };
+		243728E1216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 243728DB216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m */; };
+		243728E2216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 243728DD216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m */; };
+		243728E3216ED19100C9D1FD /* ArtObjectMO+CoreDataClass.h in Sources */ = {isa = PBXBuildFile; fileRef = 243728DE216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.h */; };
+		243728E4216ED19900C9D1FD /* ArtObjectMO+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 243728DA216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.m */; };
+		243728E5216ED19D00C9D1FD /* ArtObjectMO+CoreDataProperties.h in Sources */ = {isa = PBXBuildFile; fileRef = 243728DF216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.h */; };
+		243728E6216ED1A200C9D1FD /* HonoluluSightsGuide+CoreDataModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 243728DC216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.h */; };
+		243728E7216ED1AB00C9D1FD /* CoreDataStack.h in Sources */ = {isa = PBXBuildFile; fileRef = 243728D3216E999500C9D1FD /* CoreDataStack.h */; };
+		243728E8216ED1B200C9D1FD /* ArtObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A10216E7BF800DD27DF /* ArtObject.h */; };
+		243728E9216ED1B700C9D1FD /* DataManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A0E216E7BF800DD27DF /* DataManager.h */; };
+		243728EA216ED1BD00C9D1FD /* MapViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A17216E7C7B00DD27DF /* MapViewController.h */; };
+		243728EB216ED1C300C9D1FD /* PinInfoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A19216E7C7B00DD27DF /* PinInfoViewController.h */; };
+		243728EC216ED1C900C9D1FD /* SightsCollectionViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A18216E7C7B00DD27DF /* SightsCollectionViewController.h */; };
+		243728ED216ED1CE00C9D1FD /* SightsCollectionViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A1F216E7CA900DD27DF /* SightsCollectionViewCell.h */; };
+		243728EE216ED1D300C9D1FD /* SightsCollectionHeaderView.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A22216E7CEA00DD27DF /* SightsCollectionHeaderView.h */; };
+		243728EF216ED1D800C9D1FD /* MyAnnotation.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C0A0B216E7BA600DD27DF /* MyAnnotation.h */; };
+		243728F0216ED1DC00C9D1FD /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 242C09EE216E7A0D00DD27DF /* AppDelegate.h */; };
+		243728F1216ED1E300C9D1FD /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 242C09FA216E7A0E00DD27DF /* Assets.xcassets */; };
+		243728F2216ED1E900C9D1FD /* HonoluluSightsGuide.app in Sources */ = {isa = PBXBuildFile; fileRef = 242C09EB216E7A0D00DD27DF /* HonoluluSightsGuide.app */; };
+		243728F3216ED1ED00C9D1FD /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 242C09FF216E7A0E00DD27DF /* Info.plist */; };
+		243728F4216ED26500C9D1FD /* ArtObjectMO+CoreDataClass.h in Resources */ = {isa = PBXBuildFile; fileRef = 243728DE216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.h */; };
+		243728F5216ED26C00C9D1FD /* ArtObjectMO+CoreDataClass.m in Resources */ = {isa = PBXBuildFile; fileRef = 243728DA216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.m */; };
+		243728F6216ED27100C9D1FD /* ArtObjectMO+CoreDataProperties.h in Resources */ = {isa = PBXBuildFile; fileRef = 243728DF216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.h */; };
+		243728F7216ED27500C9D1FD /* ArtObjectMO+CoreDataProperties.m in Resources */ = {isa = PBXBuildFile; fileRef = 243728DB216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m */; };
+		243728F8216ED27A00C9D1FD /* HonoluluSightsGuide+CoreDataModel.h in Resources */ = {isa = PBXBuildFile; fileRef = 243728DC216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.h */; };
+		243728F9216ED27F00C9D1FD /* HonoluluSightsGuide+CoreDataModel.m in Resources */ = {isa = PBXBuildFile; fileRef = 243728DD216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m */; };
+		243728FA216ED28300C9D1FD /* HonoluluSightsGuide.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 242C09F7216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld */; };
+		243728FB216ED28900C9D1FD /* CoreDataStack.h in Resources */ = {isa = PBXBuildFile; fileRef = 243728D3216E999500C9D1FD /* CoreDataStack.h */; };
+		243728FC216ED28E00C9D1FD /* CoreDataStack.m in Resources */ = {isa = PBXBuildFile; fileRef = 243728D4216E999500C9D1FD /* CoreDataStack.m */; };
+		244FD92E217A7E9A00CBCD17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244FD930217A7E9A00CBCD17 /* Localizable.strings */; };
+		244FD93A217A87E300CBCD17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244FD93C217A87E300CBCD17 /* InfoPlist.strings */; };
+		24EC21A721716C9A003761F6 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EC21A621716C9A003761F6 /* CoreDataHelper.m */; };
+		24EC21AB21718BD9003761F6 /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EC21AA21718BD9003761F6 /* FavoritesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2419A483217360C000F00834 /* NotificationCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCenter.h; sourceTree = "<group>"; };
+		2419A484217360C000F00834 /* NotificationCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCenter.m; sourceTree = "<group>"; };
+		2419A4862173618F00F00834 /* HonoluluSightsGuide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HonoluluSightsGuide.entitlements; sourceTree = "<group>"; };
+		2419A487217385D200F00834 /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		2419A488217385D200F00834 /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		2419A48A2173880E00F00834 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2419A48B2173880E00F00834 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		242C09EB216E7A0D00DD27DF /* HonoluluSightsGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluSightsGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C09EE216E7A0D00DD27DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		242C09EF216E7A0D00DD27DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		242C09F5216E7A0D00DD27DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		242C09F8216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HonoluluSightsGuide.xcdatamodel; sourceTree = "<group>"; };
+		242C09FA216E7A0E00DD27DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242C09FD216E7A0E00DD27DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		242C09FF216E7A0E00DD27DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		242C0A00216E7A0E00DD27DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		242C0A0B216E7BA600DD27DF /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		242C0A0C216E7BA600DD27DF /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		242C0A0E216E7BF800DD27DF /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		242C0A0F216E7BF800DD27DF /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		242C0A10216E7BF800DD27DF /* ArtObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtObject.h; sourceTree = "<group>"; };
+		242C0A11216E7BF800DD27DF /* ArtObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtObject.m; sourceTree = "<group>"; };
+		242C0A16216E7C7B00DD27DF /* PinInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinInfoViewController.m; sourceTree = "<group>"; };
+		242C0A17216E7C7B00DD27DF /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		242C0A18216E7C7B00DD27DF /* SightsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SightsCollectionViewController.h; sourceTree = "<group>"; };
+		242C0A19216E7C7B00DD27DF /* PinInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinInfoViewController.h; sourceTree = "<group>"; };
+		242C0A1A216E7C7B00DD27DF /* SightsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SightsCollectionViewController.m; sourceTree = "<group>"; };
+		242C0A1B216E7C7B00DD27DF /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		242C0A1F216E7CA900DD27DF /* SightsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SightsCollectionViewCell.h; sourceTree = "<group>"; };
+		242C0A20216E7CA900DD27DF /* SightsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SightsCollectionViewCell.m; sourceTree = "<group>"; };
+		242C0A22216E7CEA00DD27DF /* SightsCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SightsCollectionHeaderView.h; sourceTree = "<group>"; };
+		242C0A23216E7CEA00DD27DF /* SightsCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SightsCollectionHeaderView.m; sourceTree = "<group>"; };
+		243728D3216E999500C9D1FD /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		243728D4216E999500C9D1FD /* CoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		243728DA216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ArtObjectMO+CoreDataClass.m"; sourceTree = "<group>"; };
+		243728DB216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ArtObjectMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		243728DC216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HonoluluSightsGuide+CoreDataModel.h"; sourceTree = "<group>"; };
+		243728DD216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HonoluluSightsGuide+CoreDataModel.m"; sourceTree = "<group>"; };
+		243728DE216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtObjectMO+CoreDataClass.h"; sourceTree = "<group>"; };
+		243728DF216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtObjectMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		244FD92A217A7DC900CBCD17 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		244FD92B217A7DC900CBCD17 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		244FD92F217A7E9A00CBCD17 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		244FD931217A7E9F00CBCD17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		244FD933217A7EE500CBCD17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		244FD935217A7EE800CBCD17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		244FD93B217A87E300CBCD17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		244FD93D217A87E500CBCD17 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24EC21A3217163C5003761F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24EC21A521716C9A003761F6 /* CoreDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		24EC21A621716C9A003761F6 /* CoreDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		24EC21A921718BD9003761F6 /* FavoritesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		24EC21AA21718BD9003761F6 /* FavoritesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242C09E8216E7A0D00DD27DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2419A4822173603E00F00834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2419A483217360C000F00834 /* NotificationCenter.h */,
+				2419A484217360C000F00834 /* NotificationCenter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		242C09E2216E7A0D00DD27DF = {
+			isa = PBXGroup;
+			children = (
+				242C09ED216E7A0D00DD27DF /* HonoluluSightsGuide */,
+				242C09EC216E7A0D00DD27DF /* Products */,
+				24EC21A2217163C5003761F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		242C09EC216E7A0D00DD27DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242C09EB216E7A0D00DD27DF /* HonoluluSightsGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242C09ED216E7A0D00DD27DF /* HonoluluSightsGuide */ = {
+			isa = PBXGroup;
+			children = (
+				2419A4862173618F00F00834 /* HonoluluSightsGuide.entitlements */,
+				2419A4822173603E00F00834 /* Utils */,
+				243728CF216E8F1100C9D1FD /* CoreData */,
+				242C0A0A216E7A7E00DD27DF /* Network */,
+				242C0A08216E7A6900DD27DF /* Controllers */,
+				242C0A07216E7A5B00DD27DF /* Maps */,
+				242C09EE216E7A0D00DD27DF /* AppDelegate.h */,
+				242C09EF216E7A0D00DD27DF /* AppDelegate.m */,
+				242C09F4216E7A0D00DD27DF /* Main.storyboard */,
+				242C09FA216E7A0E00DD27DF /* Assets.xcassets */,
+				242C09FC216E7A0E00DD27DF /* LaunchScreen.storyboard */,
+				242C09FF216E7A0E00DD27DF /* Info.plist */,
+				242C0A00216E7A0E00DD27DF /* main.m */,
+				244FD930217A7E9A00CBCD17 /* Localizable.strings */,
+				244FD93C217A87E300CBCD17 /* InfoPlist.strings */,
+			);
+			path = HonoluluSightsGuide;
+			sourceTree = "<group>";
+		};
+		242C0A07216E7A5B00DD27DF /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				242C0A0B216E7BA600DD27DF /* MyAnnotation.h */,
+				242C0A0C216E7BA600DD27DF /* MyAnnotation.m */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		242C0A08216E7A6900DD27DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				242C0A17216E7C7B00DD27DF /* MapViewController.h */,
+				242C0A1B216E7C7B00DD27DF /* MapViewController.m */,
+				242C0A19216E7C7B00DD27DF /* PinInfoViewController.h */,
+				242C0A16216E7C7B00DD27DF /* PinInfoViewController.m */,
+				24EC21A921718BD9003761F6 /* FavoritesTableViewController.h */,
+				24EC21AA21718BD9003761F6 /* FavoritesTableViewController.m */,
+				242C0A18216E7C7B00DD27DF /* SightsCollectionViewController.h */,
+				242C0A1A216E7C7B00DD27DF /* SightsCollectionViewController.m */,
+				242C0A15216E7C2600DD27DF /* Cells */,
+				242C0A14216E7C1B00DD27DF /* Views */,
+				2419A487217385D200F00834 /* ContentViewController.h */,
+				2419A488217385D200F00834 /* ContentViewController.m */,
+				2419A48A2173880E00F00834 /* FirstViewController.h */,
+				2419A48B2173880E00F00834 /* FirstViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		242C0A0A216E7A7E00DD27DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				242C0A10216E7BF800DD27DF /* ArtObject.h */,
+				242C0A11216E7BF800DD27DF /* ArtObject.m */,
+				242C0A0E216E7BF800DD27DF /* DataManager.h */,
+				242C0A0F216E7BF800DD27DF /* DataManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		242C0A14216E7C1B00DD27DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				242C0A22216E7CEA00DD27DF /* SightsCollectionHeaderView.h */,
+				242C0A23216E7CEA00DD27DF /* SightsCollectionHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		242C0A15216E7C2600DD27DF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				242C0A1F216E7CA900DD27DF /* SightsCollectionViewCell.h */,
+				242C0A20216E7CA900DD27DF /* SightsCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		243728CF216E8F1100C9D1FD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				243728D9216EC10D00C9D1FD /* Entities */,
+				242C09F7216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld */,
+				243728D3216E999500C9D1FD /* CoreDataStack.h */,
+				243728D4216E999500C9D1FD /* CoreDataStack.m */,
+				24EC21A521716C9A003761F6 /* CoreDataHelper.h */,
+				24EC21A621716C9A003761F6 /* CoreDataHelper.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		243728D9216EC10D00C9D1FD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				243728DE216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.h */,
+				243728DA216EC18000C9D1FD /* ArtObjectMO+CoreDataClass.m */,
+				243728DF216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.h */,
+				243728DB216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m */,
+				243728DC216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.h */,
+				243728DD216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		24EC21A2217163C5003761F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24EC21A3217163C5003761F6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242C09EA216E7A0D00DD27DF /* HonoluluSightsGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C0A04216E7A0E00DD27DF /* Build configuration list for PBXNativeTarget "HonoluluSightsGuide" */;
+			buildPhases = (
+				242C09E7216E7A0D00DD27DF /* Sources */,
+				242C09E8216E7A0D00DD27DF /* Frameworks */,
+				242C09E9216E7A0D00DD27DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonoluluSightsGuide;
+			productName = HonoluluSightsGuide;
+			productReference = 242C09EB216E7A0D00DD27DF /* HonoluluSightsGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242C09E3216E7A0D00DD27DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Timur Sasin";
+				TargetAttributes = {
+					242C09EA216E7A0D00DD27DF = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 242C09E6216E7A0D00DD27DF /* Build configuration list for PBXProject "HonoluluSightsGuide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 242C09E2216E7A0D00DD27DF;
+			productRefGroup = 242C09EC216E7A0D00DD27DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242C09EA216E7A0D00DD27DF /* HonoluluSightsGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242C09E9216E7A0D00DD27DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243728FC216ED28E00C9D1FD /* CoreDataStack.m in Resources */,
+				244FD93A217A87E300CBCD17 /* InfoPlist.strings in Resources */,
+				243728FB216ED28900C9D1FD /* CoreDataStack.h in Resources */,
+				243728FA216ED28300C9D1FD /* HonoluluSightsGuide.xcdatamodeld in Resources */,
+				243728F9216ED27F00C9D1FD /* HonoluluSightsGuide+CoreDataModel.m in Resources */,
+				243728F8216ED27A00C9D1FD /* HonoluluSightsGuide+CoreDataModel.h in Resources */,
+				243728F7216ED27500C9D1FD /* ArtObjectMO+CoreDataProperties.m in Resources */,
+				243728F6216ED27100C9D1FD /* ArtObjectMO+CoreDataProperties.h in Resources */,
+				243728F5216ED26C00C9D1FD /* ArtObjectMO+CoreDataClass.m in Resources */,
+				243728F4216ED26500C9D1FD /* ArtObjectMO+CoreDataClass.h in Resources */,
+				244FD92E217A7E9A00CBCD17 /* Localizable.strings in Resources */,
+				242C09FE216E7A0E00DD27DF /* LaunchScreen.storyboard in Resources */,
+				242C09FB216E7A0E00DD27DF /* Assets.xcassets in Resources */,
+				242C09F6216E7A0D00DD27DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242C09E7216E7A0D00DD27DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243728F3216ED1ED00C9D1FD /* Info.plist in Sources */,
+				2419A489217385D200F00834 /* ContentViewController.m in Sources */,
+				243728F2216ED1E900C9D1FD /* HonoluluSightsGuide.app in Sources */,
+				243728F1216ED1E300C9D1FD /* Assets.xcassets in Sources */,
+				243728F0216ED1DC00C9D1FD /* AppDelegate.h in Sources */,
+				243728EF216ED1D800C9D1FD /* MyAnnotation.h in Sources */,
+				243728EE216ED1D300C9D1FD /* SightsCollectionHeaderView.h in Sources */,
+				243728ED216ED1CE00C9D1FD /* SightsCollectionViewCell.h in Sources */,
+				243728EC216ED1C900C9D1FD /* SightsCollectionViewController.h in Sources */,
+				243728EB216ED1C300C9D1FD /* PinInfoViewController.h in Sources */,
+				243728EA216ED1BD00C9D1FD /* MapViewController.h in Sources */,
+				243728E9216ED1B700C9D1FD /* DataManager.h in Sources */,
+				243728E8216ED1B200C9D1FD /* ArtObject.h in Sources */,
+				243728E7216ED1AB00C9D1FD /* CoreDataStack.h in Sources */,
+				243728E6216ED1A200C9D1FD /* HonoluluSightsGuide+CoreDataModel.h in Sources */,
+				24EC21A721716C9A003761F6 /* CoreDataHelper.m in Sources */,
+				243728E5216ED19D00C9D1FD /* ArtObjectMO+CoreDataProperties.h in Sources */,
+				243728E4216ED19900C9D1FD /* ArtObjectMO+CoreDataClass.m in Sources */,
+				243728E3216ED19100C9D1FD /* ArtObjectMO+CoreDataClass.h in Sources */,
+				2419A48C2173880E00F00834 /* FirstViewController.m in Sources */,
+				243728E1216EC18000C9D1FD /* ArtObjectMO+CoreDataProperties.m in Sources */,
+				242C0A1D216E7C7B00DD27DF /* SightsCollectionViewController.m in Sources */,
+				242C0A24216E7CEA00DD27DF /* SightsCollectionHeaderView.m in Sources */,
+				242C0A13216E7BF800DD27DF /* ArtObject.m in Sources */,
+				24EC21AB21718BD9003761F6 /* FavoritesTableViewController.m in Sources */,
+				242C0A12216E7BF800DD27DF /* DataManager.m in Sources */,
+				242C0A0D216E7BA600DD27DF /* MyAnnotation.m in Sources */,
+				243728E2216EC18000C9D1FD /* HonoluluSightsGuide+CoreDataModel.m in Sources */,
+				242C0A21216E7CA900DD27DF /* SightsCollectionViewCell.m in Sources */,
+				2419A485217360C000F00834 /* NotificationCenter.m in Sources */,
+				242C0A1C216E7C7B00DD27DF /* PinInfoViewController.m in Sources */,
+				242C09F9216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld in Sources */,
+				242C0A1E216E7C7B00DD27DF /* MapViewController.m in Sources */,
+				242C0A01216E7A0E00DD27DF /* main.m in Sources */,
+				242C09F0216E7A0D00DD27DF /* AppDelegate.m in Sources */,
+				243728D5216E999500C9D1FD /* CoreDataStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		242C09F4216E7A0D00DD27DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C09F5216E7A0D00DD27DF /* Base */,
+				244FD92A217A7DC900CBCD17 /* ru */,
+				244FD933217A7EE500CBCD17 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		242C09FC216E7A0E00DD27DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242C09FD216E7A0E00DD27DF /* Base */,
+				244FD92B217A7DC900CBCD17 /* ru */,
+				244FD935217A7EE800CBCD17 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		244FD930217A7E9A00CBCD17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244FD92F217A7E9A00CBCD17 /* ru */,
+				244FD931217A7E9F00CBCD17 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		244FD93C217A87E300CBCD17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244FD93B217A87E300CBCD17 /* en */,
+				244FD93D217A87E500CBCD17 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242C0A02216E7A0E00DD27DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		242C0A03216E7A0E00DD27DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242C0A05216E7A0E00DD27DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HonoluluSightsGuide/HonoluluSightsGuide.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z6NXW9238;
+				INFOPLIST_FILE = HonoluluSightsGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timursasin.HonoluluSightsGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		242C0A06216E7A0E00DD27DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HonoluluSightsGuide/HonoluluSightsGuide.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z6NXW9238;
+				INFOPLIST_FILE = HonoluluSightsGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.timursasin.HonoluluSightsGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242C09E6216E7A0D00DD27DF /* Build configuration list for PBXProject "HonoluluSightsGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C0A02216E7A0E00DD27DF /* Debug */,
+				242C0A03216E7A0E00DD27DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C0A04216E7A0E00DD27DF /* Build configuration list for PBXNativeTarget "HonoluluSightsGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C0A05216E7A0E00DD27DF /* Debug */,
+				242C0A06216E7A0E00DD27DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		242C09F7216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				242C09F8216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodel */,
+			);
+			currentVersion = 242C09F8216E7A0D00DD27DF /* HonoluluSightsGuide.xcdatamodel */;
+			path = HonoluluSightsGuide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 242C09E3216E7A0D00DD27DF /* Project object */;
+}

@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Btx-BH-6zc"; */
+"Btx-BH-6zc.text" = "Label";
+
+/* Class = "UITableViewController"; title = "Favorites"; ObjectID = "O3n-SS-CHC"; */
+"O3n-SS-CHC.title" = "Избранное";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "XIh-WN-18v"; */
+"XIh-WN-18v.title" = "Карта";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Znp-uF-RD5"; */
+"Znp-uF-RD5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dfZ-7e-JQA"; */
+"dfZ-7e-JQA.text" = "Label";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "eaW-jh-MF8"; */
+"eaW-jh-MF8.text" = "Description";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "giB-Og-BmT"; */
+"giB-Og-BmT.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Sights"; ObjectID = "kMZ-JL-aPj"; */
+"kMZ-JL-aPj.title" = "Достопримечательности";
+
+/* Class = "UIButton"; normalTitle = "Reset search result"; ObjectID = "qYU-Er-Yep"; */
+"qYU-Er-Yep.normalTitle" = "Сборосить результаты поиска";
+
+/* Class = "UICollectionViewController"; title = "Sights"; ObjectID = "tpM-Nv-kmv"; */
+"tpM-Nv-kmv.title" = "Достопримечательности";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "wi8-lb-phv"; */
+"wi8-lb-phv.title" = "Избранное";
+
+/* Class = "UIViewController"; title = "Map"; ObjectID = "wxX-Zk-AzQ"; */
+"wxX-Zk-AzQ.title" = "Карта";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "xuL-Ig-szn"; */
+"xuL-Ig-szn.text" = "Title";

@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  HonoluluSightsGuide
+
+  Created by Timur Sasin on 20/10/2018.
+  Copyright © 2018 Timur Sasin. All rights reserved.
+*/
+
+"about_app_header" = "О ПРИЛОЖЕНИИ";
+"functionality_header" = "АВИАБИЛЕТЫ";
+"map_header" = "КАРТА ДОСТОПРИМЕЧАТЕЛЬНОСТЕЙ";
+"favorites_header" = "ИЗБРАННОЕ";
+
+"about_app_describe" = "Гид по достопримечательностям Гонолулу";
+"functionality_describe" = "Эффективный поиск достопримечательностей Гонолулу";
+"map_describe" = "Ищите достопримечательности на карте";
+"favorites_describe" = "Сохраняйте выбранные билеты в избранное";
+
+"next_button" = "ДАЛЕЕ";
+"done_button" = "ГОТОВО";
+
+"add_to_favorites_alert_title" = "Добавить в избранное";
+"add_to_favorites_alert_text" = "Хотите добавить элемент в избранное?";
+
+"remind_alert_title" = "Напомнить";
+"dismiss_alert_title" = "Отклонить";
+
+"notification_label_text" = "Элемент добавлен в избранное";
+
+"notification_title" = "Напоминание о достопримечательности";
+
+"success_alert_title" = "Успех";

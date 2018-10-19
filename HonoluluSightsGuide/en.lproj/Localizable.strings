@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  HonoluluSightsGuide
+
+  Created by Timur Sasin on 20/10/2018.
+  Copyright © 2018 Timur Sasin. All rights reserved.
+*/
+
+"about_app_header" = "ABOUT APPLICATION";
+"functionality_header" = "АВИАБИЛЕТЫ";
+"map_header" = "MAP OF SIGHTS";
+"favorites_header" = "FAVORITES";
+
+"about_app_describe" = "Guidance for Honolulu sights";
+"functionality_describe" = "Effective search of Honolulu sights";
+"map_describe" = "Research sights on map";
+"favorites_describe" = "Save your favorite sights";
+
+"next_button" = "NEXT";
+"done_button" = "DONE";
+
+"add_to_favorites_alert_title" = "Add to favorites";
+"add_to_favorites_alert_text" = "Do you want to add element to favorites?";
+
+"remind_alert_title" = "Remind";
+"dismiss_alert_title" = "Dismiss";
+
+"notification_label_text" = "Element was added to favorites";
+
+"notification_title" = "Reminder about sight";
+
+"success_alert_title" = "Success";

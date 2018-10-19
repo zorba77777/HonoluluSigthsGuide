@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HonoluluSightsGuide
+
+  Created by Timur Sasin on 20/10/2018.
+  Copyright © 2018 Timur Sasin. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Приложение";
